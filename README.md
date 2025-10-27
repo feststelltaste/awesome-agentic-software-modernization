@@ -1,0 +1,92 @@
+# Awesome Agentic Software Modernization
+
+A curated collection of resources exploring how agentic AI systems can assist in modernizing legacy software: from understanding and refactoring codebases to guiding large-scale transformations.
+
+## What is Agentic Software Modernization?
+
+Agentic software modernization combines:
+- **Autonomous AI agents** that can plan, act, and reflect
+- **Software Analytics** for deep system understanding that goes beyond just code
+- **Refactoring and migration strategies** for long-term evolution of systems
+
+The goal is to help human experts with intelligent agents that can explore, analyze, and improve legacy systems.
+
+
+## Categories
+
+- 🧭 **[Concepts & Foundations](#concepts--foundations)**
+  Research papers, theory, and methodologies behind agentic modernization.
+
+- 🔬 **[Case Studies & Experiments](#case-studies--experiments)**
+  Examples and open projects demonstrating autonomous or semi-autonomous modernization.
+
+- 🧩 **[Patterns & Use Cases](#patterns--use-cases)**
+  Practical patterns for applying agents in software archaeology, refactoring, and migration.
+
+- 🧰 **[Tools & Frameworks](#tools--frameworks)**
+  LLM-based developer tools, agent platforms, and system analysis utilities.
+
+## Resources
+
+*Resources within each category are sorted alphabetically by the name of the tools or by the first authors' surname.*
+
+### 🧭 Concepts & Foundations
+
+- [Andrew Crookston: The next programming superpower is specs, documentation and orchestrating agentic AI (October 2025)](https://andrewcrookston.com/articles/agentic-coding.html) - Examines how AI agents are transforming software development, arguing that the critical skill shifts from writing code to creating detailed specifications and comprehensive documentation. Emphasizes that developers must transition from "typists" to architects who orchestrate AI systems, with documentation quality becoming the key productivity differentiator.
+
+- [Tomaž Bratanič: RAG Tutorial - How to Build a RAG System on a Knowledge Graph (August 2025)](https://neo4j.com/blog/developer/rag-tutorial/) - Comprehensive tutorial from Neo4j explaining how to construct retrieval-augmented generation (RAG) applications by combining knowledge graphs with vector search. Covers retrieving relevant information, augmenting prompts with context, and generating responses. Demonstrates how to ground LLM-based agents in reliable, structured knowledge for better system understanding during modernization.
+
+- [Birgitta Böckeler, Chandirasekar Thiagarajan: Context Engineering - Tackling Legacy Systems with Generative AI (Thoughtworks Technology Podcast, August 2025)](https://www.youtube.com/watch?v=Uhs8o4qPvd0) - Podcast episode featuring Birgitta Böckeler and Chandirasekar Thiagarajan discussing how generative AI can help understand large codebases and reverse engineer legacy systems through "context engineering". Explores the process, tools, and insights about both generative AI and legacy modernization (especially reengineering).
+
+- [Erik Dörnenburg: KI Einsatz für die Legacy-Modernisierung 🇩🇪 (June 2025)](https://www.richard-seidl.com/en/blog/legacy-modernization) - Discussion about challenges and opportunities of legacy modernization, focusing on using AI support (RAGs) and specific tools to gain insights from old code that help with modernization and new development.
+
+- [Michael Feathers: AI Assisted Programming (May 2025)](https://leanpub.com/ai-assisted-programming) - In-progress book exploring practical techniques for working effectively with AI coding assistants. Covers understanding AI assistant behaviors, key concepts for productive collaboration, and specific techniques including test-driven development and iterative refinement. Emphasizes maintaining code ownership and understanding, particularly relevant for legacy system modernization.
+
+- [Markus Harrer: Software Analytics going crAIzy! (September 2025)](https://www.innoq.com/en/blog/2025/09/software-analytics-going-craizy/) - Explores how AI and data science tools are transforming traditional software analytics, moving beyond problem identification to automated solution implementation. Outlines a two-phase approach: identifying problems through data analysis, then applying AI-driven solutions for refactoring, architectural validation, and large-scale migrations.
+
+- [Nate B. Jones: Software 3.0 vs AI Agentic Mesh - Why McKinsey Got It Wrong (June 2025)](https://natesnewsletter.substack.com/p/software-30-vs-ai-agentic-mesh-why) - Critical analysis contrasting Andrej Karpathy's "Software 3.0" vision (natural language programming with human-AI collaboration) with McKinsey's "AI Agentic Mesh" (autonomous distributed agents). Argues that successful AI implementation requires honest assessment of capabilities and limitations, supported by case studies and technical evidence.
+
+- [Ray Myers: Code Mending in the AI age (Craft Conference 2024)](https://www.youtube.com/watch?v=-r1yB6wCRP8) - Conference talk exploring how AI language models can help with mountains of legacy code. Discusses how "Menders" who understand what truly holds systems back are uniquely positioned to make an impact in the AI age of software development.
+
+- [Patric Gutersohn: ai-agents-from-scratch (October 2025)](https://github.com/pguso/ai-agents-from-scratch/) - A code / example driven guide to building AI agents from the ground up including the concepts behind agentic systems.
+
+- [Nicky Pike, Dave Ahr: AI-Assisted Legacy Code Modernization: A Developer's Guide (June 2025)](https://coder.com/blog/ai-assisted-legacy-code-modernization-a-developer-s-guide) - Practical guide from Coder providing actionable strategies for modernizing legacy systems using AI. Covers where AI delivers genuine value, building effective human-AI partnerships, technical infrastructure requirements, and a practical implementation playbook.
+
+
+### 🔬 Case Studies & Experiments
+
+- [Aaron Bawcom, Leandro Santos: Accelerate app modernization with generative AI - A McKinsey perspective (April 2024)](https://www.youtube.com/watch?v=zddFQLHdP50) - Presentation on McKinsey's LegacyX approach focusing on using generative AI to modernize applications faster and more efficiently. Covers how genAI streamlines app modernization by automating discovery and documentation of functionality, creating target-state code, and performing unit and functional testing.
+
+- [Markus Harrer: Getting to Know Your Legacy System with AI-Driven Software Archeology (July 2025)](https://www.youtube.com/live/vBpJFUCJNKw) - Talk from WeAreDevelopers World Congress 2025 about using AI-driven approaches for software archaeology to understand legacy systems in a data-driven way. ([slides](https://speakerdeck.com/feststelltaste/getting-to-know-your-legacy-system-with-ai-driven-software-archeology-wearedevelopers-world-congress-2025))
+
+- [Markus Harrer: LLM-assisted Abbreviation Mining for Legacy Systems (November 2024)](https://www.innoq.com/en/blog/2024/11/llm-assisted-abbreviation-mining/) - Case study using Claude 3.5 Sonnet to decipher abbreviations in a legacy COBOL banking system. Demonstrates an iterative process to extract abbreviations, expand meanings with confidence scores, and map concepts to codebase components, achieving 99% coverage of files with known concepts.
+
+- [Nick Tune: Reverse Engineering Your Software Architecture with Claude Code to Help Claude Code (October 2025)](https://medium.com/nick-tune-tech-strategy-blog/reverse-engineering-your-software-architecture-with-claude-code-to-help-claude-code-1746a7b941bc) - A experiment demonstrating how to use Claude Code as an AI agent to reverse engineer and analyze software architecture, helping to better understand legacy systems.
+
+### 🧩 Patterns & Use Cases
+
+- [Jorrik Klijnsma: AI-Driven Code Refactoring - Improving Legacy Codebases Automatically (April 2025)](https://www.youtube.com/watch?v=u8tvVxUOwvY) - Explores how AI-powered code refactoring can modernize cluttered codebases, from deciphering code DNA to performing digital reconstructive surgery. Covers real-world success stories, current limitations, and practical tools. ([prompts & scripts](https://github.com/jorrikklijnsma/trail-buddy/tree/main/PROMPTS_AND_SCRIPTS))
+
+- [Markus Harrer: An ideas how of micro patterns for agents could look like (experimental, November 2024)](https://gist.github.com/feststelltaste/6e488f9d0db7fd7cc5b4b9d984d3ed05) - An early preview of a collection of micro-patterns for building AI agents for legacy modernization tasks (brainstormed with LLM assistance).
+
+
+### 🧰 Tools & Frameworks
+*Disclaimer: There are so many tools out there in this space. So this sections just highlights a few interesting ones related to the topic. Please feel free to create or link a separate awesome list for agentic modernization tools if you want to have a more complete overview. I'll be happy to link to it!*
+
+- [CodeConcise (September 2024)](https://martinfowler.com/articles/legacy-modernization-gen-ai.html) - Thoughtworks' modernization tool combining Large Language Models with knowledge graphs derived from code syntax trees. Article by Alessio Ferri, Tom Coggrave, and Shodhan Sheth explores how GenAI accelerates legacy modernization through reverse engineering requirements, high-level system comprehension, capability mapping, code quality assessment, and technology translation.
+
+- [CodeMender (October 2025)](https://deepmind.google/discover/blog/introducing-codemender-an-ai-agent-for-code-security/) - Google's AI-powered agent that takes a comprehensive approach to code security, both reactive (instantly patching new vulnerabilities) and proactive (rewriting and securing existing code to eliminate entire classes of vulnerabilities). Has successfully upstreamed 72 security fixes to open source projects, including some as large as 4.5 million lines of code.
+
+
+## Other Awesome Lists
+
+- [Awesome Legacy Systems](https://github.com/feststelltaste/awesome-legacy-systems) - A curated list of resources about legacy systems and their maintenance.
+- [Awesome Software Analytics](https://github.com/feststelltaste/awesome-software-analytics) - A curated list of awesome software analytics resources.
+
+## Contributing
+
+Contributions are welcome! Please create a PR if you have something interesting for me (but please don't add just your tools because this is not the right list for that). Also: Please follow the [Awesome List guidelines](https://github.com/sindresorhus/awesome/blob/main/contributing.md).
+
+## License
+
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
