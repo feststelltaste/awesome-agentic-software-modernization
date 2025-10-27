@@ -1,4 +1,4 @@
-# Awesome Agentic Software Modernization
+# Awesome Agentic Software Modernization [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
 A curated collection of resources exploring how agentic AI systems can assist in modernizing legacy software: from understanding and refactoring codebases to guiding large-scale transformations.
 
