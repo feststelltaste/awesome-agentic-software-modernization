@@ -15,16 +15,16 @@ The goal is to help human experts with intelligent agents that can explore, anal
 ## Categories
 
 - 🧭 **[Concepts & Foundations](#-concepts--foundations)**
-  Research papers, theory, and methodologies behind agentic modernization.
+  Research papers, theory, and methodologies behind agentic modernization using AI.
 
 - 🔬 **[Case Studies & Experiments](#-case-studies--experiments)**
-  Examples and open projects demonstrating autonomous or semi-autonomous modernization.
+  Examples and projects demonstrating autonomous or semi-autonomous modernization.
 
 - 🧩 **[Patterns & Recipes](#-patterns--recipes)**
-  Practical patterns for applying agents in software archaeology, refactoring, and migration.
+  Practical patterns and recipes for applying AI and agents in software archaeology, refactoring, and migration.
 
 - 🧰 **[Tools & Frameworks](#-tools--frameworks)**
-  LLM-based developer tools, agent platforms, and system analysis utilities.
+  AI-based developer tools, agent platforms, and system analysis utilities.
 
 ## Resources
 
