@@ -20,7 +20,7 @@ The goal is to help human experts with intelligent agents that can explore, anal
 - 🔬 **[Case Studies & Experiments](#-case-studies--experiments)**
   Examples and open projects demonstrating autonomous or semi-autonomous modernization.
 
-- 🧩 **[Patterns & Use Cases](#-patterns--use-cases)**
+- 🧩 **[Patterns & Recipes](#-patterns--recipes)**
   Practical patterns for applying agents in software archaeology, refactoring, and migration.
 
 - 🧰 **[Tools & Frameworks](#-tools--frameworks)**
@@ -69,7 +69,7 @@ The goal is to help human experts with intelligent agents that can explore, anal
 
 - [Nick Tune: Reverse Engineering Your Software Architecture with Claude Code to Help Claude Code (October 2025)](https://medium.com/nick-tune-tech-strategy-blog/reverse-engineering-your-software-architecture-with-claude-code-to-help-claude-code-1746a7b941bc) - A experiment demonstrating how to use Claude Code as an AI agent to reverse engineer and analyze software architecture, helping to better understand legacy systems.
 
-### 🧩 Patterns & Use Cases
+### 🧩 Patterns & Recipes
 
 - [Jorrik Klijnsma: AI-Driven Code Refactoring - Improving Legacy Codebases Automatically (April 2025)](https://www.youtube.com/watch?v=u8tvVxUOwvY) - Explores how AI-powered code refactoring can modernize cluttered codebases, from deciphering code DNA to performing digital reconstructive surgery. Covers real-world success stories, current limitations, and practical tools. ([prompts & scripts](https://github.com/jorrikklijnsma/trail-buddy/tree/main/PROMPTS_AND_SCRIPTS))
 
