@@ -92,6 +92,8 @@ The goal is to help human experts with intelligent agents that can explore, anal
 
 - [CodeMender (October 2025)](https://deepmind.google/discover/blog/introducing-codemender-an-ai-agent-for-code-security/) - Google's AI-powered agent that takes a comprehensive approach to code security, both reactive (instantly patching new vulnerabilities) and proactive (rewriting and securing existing code to eliminate entire classes of vulnerabilities). Has successfully upstreamed 72 security fixes to open source projects, including some as large as 4.5 million lines of code.
 
+- [Serena](https://github.com/oraios/serena) - Coding agent toolkit transforming LLMs into fully-featured agents capable of working directly on codebases. Provides semantic code tools leveraging Language Server Protocol to support over 30 programming languages with IDE-like capabilities including symbol discovery, reference finding, and semantic editing.
+
 
 ### ✨ Inspiring
 
