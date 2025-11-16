@@ -104,7 +104,7 @@ The goal is to help human experts with intelligent agents that can explore, anal
 
 - [Awesome Legacy Systems](https://github.com/feststelltaste/awesome-legacy-systems) - A curated list of resources about legacy systems and their maintenance.
 - [Awesome Software Analytics](https://github.com/feststelltaste/awesome-software-analytics) - A curated list of awesome software analytics resources.
-
+- [Supercharged AI Dev Tools](https://github.com/rembertdesigns/Supercharged-AI-Dev-Tools) - A curated list of AI-powered developer tools for your development workflow.
 
 ## Contributing
 
