@@ -70,6 +70,8 @@ The goal is to help human experts with intelligent agents that can explore, anal
 
 - [Markus Harrer: LLM-assisted Abbreviation Mining for Legacy Systems (November 2024)](https://www.innoq.com/en/blog/2024/11/llm-assisted-abbreviation-mining/) - Case study using Claude 3.5 Sonnet to decipher abbreviations in a legacy COBOL banking system. Demonstrates an iterative process to extract abbreviations, expand meanings with confidence scores, and map concepts to codebase components, achieving 99% coverage of files with known concepts.
 
+- [André Lindenberg: Modernizing legacy IT systems with n8n, Agents & MCP integration (May 2025)](https://www.youtube.com/watch?v=QKICld_iwcQ) - Meetup session on using n8n workflows, agentic orchestration, and Model Context Protocol integration to accelerate modernization of legacy IT systems via a "Decompose, Transform, Synthesize" workflow.
+
 - [Nick Tune: Reverse Engineering Your Software Architecture with Claude Code to Help Claude Code (October 2025)](https://medium.com/nick-tune-tech-strategy-blog/reverse-engineering-your-software-architecture-with-claude-code-to-help-claude-code-1746a7b941bc) - A experiment demonstrating how to use Claude Code as an AI agent to reverse engineer and analyze software architecture, helping to better understand legacy systems.
 
 
